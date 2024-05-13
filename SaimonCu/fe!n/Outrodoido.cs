@@ -13,7 +13,7 @@ namespace SaimonCu.fe_n
 
         public String IdFulano()
         {
-            return String.Format($"Entao seu PINTO nome é {Nome} e sua idade é {Idade} anos! (S/N)");
+            return String.Format($"Entao seu bct nome é {Nome} e sua idade é {Idade} anos! (S/N)");
         }
         public void Apresentar()
         {
