@@ -1,5 +1,4 @@
-﻿using SaimonCu.Colecoes;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,8 +11,8 @@ namespace SaimonCu.Colecoes
     {
         public static void Executar()
         {
-            // nao da para misturar mais de um tipo de var em uma array | array é um tipo static se for "5" vai ser 5 e pronto
-            string[] alunos = new string[5];  // array pode fazer com que um unico identificador vai armazenar "5" valores 
+            //nao da para misturar mais de um tipo de var em uma array | array é um tipo static se for "5" vai ser 5 e pronto
+            string[] alunos = new string[5];  // array pode fazer com que um unico identificador vai armazenar "5" valores
             alunos[0] = "saimon";
             alunos[1] = "banjo";
             alunos[2] = "insomnia";
