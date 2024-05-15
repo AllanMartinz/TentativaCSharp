@@ -5,6 +5,7 @@ using SaimonCu.Fundamentos;
 using SaimonCu.EstruturaDeControle;
 using SaimonCu.fe_n;
 using SaimonCu.ClassesEMetodos;
+using SaimonCu.Colecoes;
 
 namespace CursoCSharp {
     class Program {
@@ -56,6 +57,8 @@ namespace CursoCSharp {
                 {"Valor vs Referencia - Classes & Metodos", ValorVsReferencia.Executar},
                 {"Parametros por Referencia - Classes & Metodos", ParametrosPorReferencia.Executar},
                 {"Parametro com Valor Padrao - Classes & Metodos", ParametrosPadrao.Executar},
+                //-Colecoes------------------------------------------
+                {"Array - Colecoes", SaimonCu.Colecoes.Array.Executar},
 
 
                 //-test---------------------
