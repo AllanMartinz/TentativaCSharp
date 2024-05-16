@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 
 using SaimonCu.Fundamentos;
-using SaimonCu.EstruturaDeControle;
-using SaimonCu.fe_n;
-using SaimonCu.ClassesEMetodos;
 using SaimonCu.Colecoes;
+using SaimonCu.EstruturaDeControle;
+using SaimonCu.fe_n; 
+using SaimonCu.ClassesEMetodos;
+
 
 namespace CursoCSharp {
     class Program {
@@ -59,7 +60,7 @@ namespace CursoCSharp {
                 {"Parametro com Valor Padrao - Classes & Metodos", ParametrosPadrao.Executar},
                 //-Colecoes------------------------------------------
                 {"Array - Colecoes", SaimonCu.Colecoes.Array.Executar},
-
+                {"List - Colecoes", List.Executar},
 
                 //-test---------------------
                 {"meltdown - nerds", malt.Executar},

@@ -13,11 +13,11 @@ namespace SaimonCu.Colecoes
         {
             //nao da para misturar mais de um tipo de var em uma array | array é um tipo static se for "5" vai ser 5 e pronto
             string[] alunos = new string[5];  // array pode fazer com que um unico identificador vai armazenar "5" valores
-            alunos[0] = "saimon";
-            alunos[1] = "banjo";
-            alunos[2] = "insomnia";
-            alunos[3] = "allan";
-            alunos[4] = "shaco";
+            alunos[0] = "saimon";   // id 1
+            alunos[1] = "banjo";    // id 2
+            alunos[2] = "insomnia"; // id 3
+            alunos[3] = "allan";    // id 4
+            alunos[4] = "shaco";    // id 5
             foreach (string aluno in alunos)
             {
                 Console.WriteLine(aluno);
@@ -35,7 +35,7 @@ namespace SaimonCu.Colecoes
             string palavra = new string(letras);
             Console.WriteLine(letras);
 
-
+            //--! id = identificador
         }
     }
 }
