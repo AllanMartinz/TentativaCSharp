@@ -62,6 +62,7 @@ namespace CursoCSharp {
                 {"Array - Colecoes", SaimonCu.Colecoes.Array.Executar},
                 {"List - Colecoes", ColecoesList.Executar},
                 {"Set - Colecoes", ColecoesSet.Executar},
+                {"Queue - Colecoes", ColecoesQueue.Executar},
 
                 //-test---------------------
                 {"meltdown - nerds", malt.Executar},
