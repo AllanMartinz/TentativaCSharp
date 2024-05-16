@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace SaimonCu.Colecoes
 {
-    class ArrayList
+    class ColecoesArrayList
     {   /*
         public static void Executar()
         {

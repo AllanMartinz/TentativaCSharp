@@ -60,7 +60,8 @@ namespace CursoCSharp {
                 {"Parametro com Valor Padrao - Classes & Metodos", ParametrosPadrao.Executar},
                 //-Colecoes------------------------------------------
                 {"Array - Colecoes", SaimonCu.Colecoes.Array.Executar},
-                {"List - Colecoes", List.Executar},
+                {"List - Colecoes", ColecoesList.Executar},
+                {"Set - Colecoes", ColecoesSet.Executar},
 
                 //-test---------------------
                 {"meltdown - nerds", malt.Executar},

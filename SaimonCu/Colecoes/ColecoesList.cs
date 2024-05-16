@@ -17,7 +17,7 @@ namespace SaimonCu.Colecoes
             Preco = preco;
         }
     }
-    class List
+    class ColecoesList
     {
         public static void Executar()
         {
@@ -43,6 +43,9 @@ namespace SaimonCu.Colecoes
 
                 //--! id = identificador
             }
+            Console.WriteLine(carrinho.Count);
+            carrinho.Add(Manga);
+            Console.WriteLine(carrinho.LastIndexOf(Manga));
         }
     }
 }
