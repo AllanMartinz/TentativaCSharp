@@ -6,16 +6,38 @@ using System.Threading.Tasks;
 
 namespace SaimonCu.Colecoes
 {
-    public class Produto
+    public class Produto // Ctrl + . + mouse em cima = opcao rapidas 
     {
         public string Nome;
         public double Preco;
 
-        public Produto (string nome, double preco)
+        public Produto (string nome, double preco) // construtor | usar opcao rapida
         {
             Nome = nome;
             Preco = preco;
         }
+         
+        
+        // ##########   LINK --> Igualdade  ##########
+
+        public override/*sobreescrever*/ bool Equals(object obj) // o obj que queremos é o Produto | usar opcao rapida
+        {
+            Produto outroProduto = (Produto)obj;
+            bool mesmoNome = Nome == outroProduto.Nome;
+            bool mesmoPreco = Preco == outroProduto.Preco;
+            return mesmoNome && mesmoPreco; //se tiverem o mesmoNome/Preco quer dizer que sao iguais
+
+        }
+
+        // ##########  LINK --> ColecoeSet  ##########
+        // Set usa apenas Hash
+        // usar HashCode em unico atributo para evitar dor de cabeca /usar ID
+        public override int GetHashCode() // opcao rapida |! vai ser crida um hashCode U N I C O para um elementos especifico
+        {
+            return Nome.Length; // usar o Length(Comprimento do nome) para encontrar a repeticao
+        }
+        //serve como banco de dados | nesse caso ele vai usar o Equals para que nao haja elementos iguais
+
     }
     class ColecoesList
     {

@@ -63,6 +63,7 @@ namespace CursoCSharp {
                 {"List - Colecoes", ColecoesList.Executar},
                 {"Set - Colecoes", ColecoesSet.Executar},
                 {"Queue - Colecoes", ColecoesQueue.Executar},
+                {"Igualdade - Colecoes", Igualdade.Executar},
 
                 //-test---------------------
                 {"meltdown - nerds", malt.Executar},
