@@ -64,6 +64,8 @@ namespace CursoCSharp {
                 {"Set - Colecoes", ColecoesSet.Executar},
                 {"Queue - Colecoes", ColecoesQueue.Executar},
                 {"Igualdade - Colecoes", Igualdade.Executar},
+                {"Stack - Colecoes", ColecoesStack.Executar},
+                {"Dictionary - Colecoes", ColecoesDictionary.Executar},
 
                 //-test---------------------
                 {"meltdown - nerds", malt.Executar},
