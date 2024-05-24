@@ -6,6 +6,7 @@ using SaimonCu.Colecoes;
 using SaimonCu.EstruturaDeControle;
 using SaimonCu.fe_n; 
 using SaimonCu.ClassesEMetodos;
+using SaimonCu.OO;
 
 
 namespace CursoCSharp {
@@ -66,11 +67,12 @@ namespace CursoCSharp {
                 {"Igualdade - Colecoes", Igualdade.Executar},
                 {"Stack - Colecoes", ColecoesStack.Executar},
                 {"Dictionary - Colecoes", ColecoesDictionary.Executar},
-
+                //-OO-Pilares-------------------------------------------
+                {"Heranca - OO - PILARES", Heranca.Executar},
                 //-test---------------------
                 {"meltdown - nerds", malt.Executar},
                 {"doido loco - nerds", doido.Executar},
-            });
+            }) ;
 
             central.SelecionarEExecutar();
         }
