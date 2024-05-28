@@ -70,6 +70,7 @@ namespace CursoCSharp {
                 //-OO-Pilares-------------------------------------------
                 {"Heranca - OO - PILARES", Heranca.Executar},
                 {"This - OO - PILARES", ConstrutorThis.Executar},
+                {"Encapsulamneto - OO - PILARES", SaimonCu.OO.Encapsulamento.Executar},
                 //-test---------------------
                 {"meltdown - nerds", malt.Executar},
                 {"doido loco - nerds", doido.Executar},
