@@ -7,21 +7,80 @@ using System.Threading.Tasks;
 
 namespace SaimonCu.fe_n
 {
-
+    //public int add(int a, int b) { return a + b; }
+    //public int Sub(int a, int b) { return a - b; }
+    //public int Mult(int a, int b) { return a * b; }
+    //public int Div(int a, int b) { return a / b; }
     public class Umbers
     {
-
-        public int add(int a, int b) { return a + b; }
-        public int Sub(int a, int b) { return a - b; }
-        public int Mult(int a, int b) { return a * b; }
-        public int Div(int a, int b) { return a / b; }
+        protected int A { get; set; }
+        protected int B { get; set; }
+        protected Umbers(int a, int b)
+        {
+            A = a;
+            B = b;
+        } 
+        internal Umbers() { }
     }
 
+    public class Add  : Umbers{
+        public int adic(int a, int b) { return a + b; }
+        
+    }
+    public class Sub  : Umbers{
+        public int subt(int a, int b) { return a - b; }
+    }
+    public class Mult : Umbers{
+        public int multi(int a, int b) { return a * b; }
+    }
+    public class Div  : Umbers{
+        public int divi(int a, int b) { return a / b; }
+    }
 
     class malt
     {
         public static void Executar()
         {
+            Add adicionar = new Add();
+            Sub subtrair = new Sub(); 
+            Mult multiplicar = new Mult();
+            Div dividir = new Div();
+
+            Console.WriteLine("Selecione a operação.");
+            Console.WriteLine("1.Adicionar");
+            Console.WriteLine("2.Subitrair");
+            Console.WriteLine("3.Multiplicar");
+            Console.WriteLine("4.Divide");
+            Console.Write("escolha(1/2/3/4): ");
+            int.TryParse(Console.ReadLine(), out int pica);
+            Console.Write("Primeiro Numero: ");
+            int.TryParse(Console.ReadLine(), out int a);
+            Console.Write("Segundo Numero: ");
+            int.TryParse(Console.ReadLine(), out int b);
+
+            //switch (pica)
+            //{
+            //    case 1:
+            //        Console.WriteLine(adicionar.adic(a, b));
+            //        break;
+            //    case 2:
+            //        Console.WriteLine(subtrair.subt(a, b));
+            //        break;
+            //    case 3:
+            //        Console.WriteLine(multiplicar.multi(a, b));
+            //        break;
+            //    case 4:
+            //        Console.WriteLine(dividir.divi(a, b));
+            //        break;
+            //}
+
+            if (pica == 1) { Console.WriteLine(adicionar.adic(a, b)); }
+            else if (pica == 2) { Console.WriteLine(subtrair.subt(a, b)); }
+            else if (pica == 3) { Console.WriteLine(multiplicar.multi(a, b)); }
+            else if (pica == 4) { Console.WriteLine(dividir.divi(a, b)); }
+
+
+///---------------------------------BURRO!---------------------------------
             //       var opera = new Dictionary<int, >();
             //       opera.Add(1, "1.Adicionar");
             //       opera.Add(2, "2.Subtrair");
@@ -134,7 +193,7 @@ namespace SaimonCu.fe_n
         }
         //        // Console.WriteLine($"O resultado foi: {res} (sim/nao)");
 
-    } 
+    }
 }
 
 
