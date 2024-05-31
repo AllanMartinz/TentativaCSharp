@@ -46,11 +46,18 @@ namespace SaimonCu.fe_n
             Mult multiplicar = new Mult();
             Div dividir = new Div();
 
+            string[] ops = new string[4];
+            ops[0] = "1.Adicionar";
+            ops[1] = "2.Subitrair";
+            ops[2] = "3.Multiplicar";
+            ops[3] = "4.Divide";
+
             Console.WriteLine("Selecione a operação.");
-            Console.WriteLine("1.Adicionar");
-            Console.WriteLine("2.Subitrair");
-            Console.WriteLine("3.Multiplicar");
-            Console.WriteLine("4.Divide");
+
+        foreach(var operacoes in ops)
+            {
+                Console.WriteLine(operacoes);
+            }
             Console.Write("escolha(1/2/3/4): ");
             int.TryParse(Console.ReadLine(), out int pica);
             Console.Write("Primeiro Numero: ");
