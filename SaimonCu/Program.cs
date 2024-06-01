@@ -73,6 +73,7 @@ namespace CursoCSharp {
                 {"Encapsulamneto - OO - PILARES", SaimonCu.OO.Encapsulamento.Executar},
                 {"Polimorfismo - OO - PILARES", Polimorfismo.Executar},
                 {"Abstract - OO - PILARES", Abstract.Executar},
+                {"Insterface - OO - PILARES", Interface.Executar},
                 //-test---------------------
                 {"meltdown - nerds", malt.Executar},
                 {"doido loco - nerds", doido.Executar},

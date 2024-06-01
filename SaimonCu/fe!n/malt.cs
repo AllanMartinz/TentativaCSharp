@@ -11,36 +11,31 @@ namespace SaimonCu.fe_n
     //public int Sub(int a, int b) { return a - b; }
     //public int Mult(int a, int b) { return a * b; }
     //public int Div(int a, int b) { return a / b; }
-    public class Umbers
+    interface Umbers
     {
-        protected int A { get; set; }
-        protected int B { get; set; }
-        protected Umbers(int a, int b)
-        {
-            A = a;
-            B = b;
-        } 
-        internal Umbers() { }
+        int Ari(int a, int b);
+
     }
 
-    public class Add  : Umbers{
-        public int adic(int a, int b) { return a + b; }
+    class Add  : Umbers{
+        public int Ari(int a, int b) { return a + b; }
         
     }
     public class Sub  : Umbers{
-        public int subt(int a, int b) { return a - b; }
+        public int Ari(int a, int b) { return a - b; }
     }
     public class Mult : Umbers{
-        public int multi(int a, int b) { return a * b; }
+        public int Ari(int a, int b) { return a * b; }
     }
     public class Div  : Umbers{
-        public int divi(int a, int b) { return a / b; }
+        public int Ari(int a, int b) { return a / b; }
     }
 
     class malt
     {
         public static void Executar()
         {
+
             Add adicionar = new Add();
             Sub subtrair = new Sub(); 
             Mult multiplicar = new Mult();
@@ -58,6 +53,7 @@ namespace SaimonCu.fe_n
             {
                 Console.WriteLine(operacoes);
             }
+
             Console.Write("escolha(1/2/3/4): ");
             int.TryParse(Console.ReadLine(), out int pica);
             Console.Write("Primeiro Numero: ");
@@ -81,10 +77,10 @@ namespace SaimonCu.fe_n
             //        break;
             //}
 
-            if (pica == 1) { Console.WriteLine(adicionar.adic(a, b)); }
-            else if (pica == 2) { Console.WriteLine(subtrair.subt(a, b)); }
-            else if (pica == 3) { Console.WriteLine(multiplicar.multi(a, b)); }
-            else if (pica == 4) { Console.WriteLine(dividir.divi(a, b)); }
+            if (pica == 1) { Console.WriteLine(adicionar.Ari(a, b)); }
+            else if (pica == 2) { Console.WriteLine(subtrair.Ari(a, b)); }
+            else if (pica == 3) { Console.WriteLine(multiplicar.Ari(a, b)); }
+            else if (pica == 4) { Console.WriteLine(dividir.Ari(a, b)); }
 
 
 ///---------------------------------BURRO!---------------------------------
