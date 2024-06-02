@@ -22,10 +22,10 @@ namespace SaimonCu.OO
         }
         public bool lele(string lolo)
         {
-            return true;
+            return true; // tem entrada mas nao leva a nada, volta
         }
     }    
-    class Subtrair : OperacoeBinaria
+    class Subtrair : OperacoeBinaria // herdar
     {
         public int Operacao(int a, int b) //um membro sempre sera public mesmo em herdado
         {
@@ -47,7 +47,7 @@ namespace SaimonCu.OO
         }
     }
     class Calculadora { 
-        List<OperacoeBinaria> operacoes = new List<OperacoeBinaria>
+        List<OperacoeBinaria> operacoes = new List<OperacoeBinaria> // lista da OperacoeBinaria
         {
             new Soma(),
             new Subtrair(),
@@ -57,13 +57,14 @@ namespace SaimonCu.OO
     
         public string ExecutarOperacoes(int a, int b)
         {
-            string resultado = "";
+            string resultado = ""; // criacoa de uma string que tenha ""
 
-            foreach (var op in operacoes)
+            foreach (var op in operacoes) // para cada item em opercao recebe op
             {
                 resultado += $"Usando {op.GetType().Name} = {op.Operacao(a, b)}\n";
+                // a string vai ser igual| adicionando $"Usando {pegara por nome as op} = {oprecao feito pela atribuicao de a e b}\n->pular linha"
             }
-            return resultado;
+            return resultado; // voltar resultado
         } 
     }
 
@@ -73,8 +74,9 @@ namespace SaimonCu.OO
 
         public static void Executar()
         {
-            var calc  = new Calculadora();
-            var resultado = calc.ExecutarOperacoes(50, 50);
+            var calc  = new Calculadora(); // nova calculador como calc
+            var resultado =  calc.ExecutarOperacoes(80, 50);  // criacao de uma var que tenha as atribuicoes logo a = 80 e b = 50
+            Console.WriteLine(resultado); // console escrever a var resultado
         }
     }
 }

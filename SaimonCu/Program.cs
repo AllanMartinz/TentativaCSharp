@@ -7,12 +7,12 @@ using SaimonCu.EstruturaDeControle;
 using SaimonCu.fe_n; 
 using SaimonCu.ClassesEMetodos;
 using SaimonCu.OO;
-
+using SaimonCu.MetodosEFuncoes;
 
 namespace CursoCSharp {
     class Program {
         static void Main(string[] args) {
-            var central = new CentralDeExercicios(new Dictionary<string, Action>() {
+            var central = new CentralDeExercicios(new Dictionary<string, Action /*Action = armazenar uma funcao em um metodo*/>() {
 
                 
                 //-FUNDAMENTOS----------------------------------
@@ -74,6 +74,13 @@ namespace CursoCSharp {
                 {"Polimorfismo - OO - PILARES", Polimorfismo.Executar},
                 {"Abstract - OO - PILARES", Abstract.Executar},
                 {"Insterface - OO - PILARES", Interface.Executar},
+                {"Sealed - OO - PILARES", Sealed.Executar},
+                //-Metodos-&-Funcoes-------------------------------------------
+
+                {"Lambda - Metodos & Funcoes", ExemploLambda.Executar},
+                {"Lambdas com Delegate - Metodos & Funcoes", LambdasDelegate.Executar},
+                
+
                 //-test---------------------
                 {"meltdown - nerds", malt.Executar},
                 {"doido loco - nerds", doido.Executar},
