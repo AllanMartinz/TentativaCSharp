@@ -76,11 +76,11 @@ namespace CursoCSharp {
                 {"Insterface - OO - PILARES", Interface.Executar},
                 {"Sealed - OO - PILARES", Sealed.Executar},
                 //-Metodos-&-Funcoes-------------------------------------------
-
                 {"Lambda - Metodos & Funcoes", ExemploLambda.Executar},
                 {"Lambdas com Delegate - Metodos & Funcoes", LambdasDelegate.Executar},
-                
-
+                {"Usando Delegate - Metodos & Funcoes", UsandoDelegate.Executar},
+                {"Delegate Como Funcao Anonima - Metodos & Funcoes", DelegateFunAnonima.Executar},
+                {"Delegate Como Parametros - Metodos & Funcoes", DelegatesParametros.Executar},
                 //-test---------------------
                 {"meltdown - nerds", malt.Executar},
                 {"doido loco - nerds", doido.Executar},
