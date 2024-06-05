@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace SaimonCu.MetodosEFuncoes
 {
-    class DelegatesParametros
+
+     class DelegatesParametros
     {
         public delegate int Operacao(int x, int y);
         public static int Soma(int x, int y)
