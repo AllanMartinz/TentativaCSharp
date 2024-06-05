@@ -8,6 +8,7 @@ using SaimonCu.fe_n;
 using SaimonCu.ClassesEMetodos;
 using SaimonCu.OO;
 using SaimonCu.MetodosEFuncoes;
+using SaimonCu.Excecoes;
 
 namespace CursoCSharp {
     class Program {
@@ -81,6 +82,9 @@ namespace CursoCSharp {
                 {"Usando Delegate - Metodos & Funcoes", UsandoDelegate.Executar},
                 {"Delegate Como Funcao Anonima - Metodos & Funcoes", DelegateFunAnonima.Executar},
                 {"Delegate Como Parametros - Metodos & Funcoes", DelegatesParametros.Executar},
+                {"Metodos De Extensao - Metodos & Funcoes", MetodosExtensao.Executar},
+                //-Excecoes-------------------------------------------
+                {"Primeira Excecao - Excecao", PrimeiraExcecao.Executar},
                 //-test---------------------
                 {"meltdown - nerds", malt.Executar},
                 {"doido loco - nerds", doido.Executar},
