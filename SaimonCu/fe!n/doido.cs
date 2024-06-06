@@ -16,6 +16,7 @@ namespace SaimonCu.fe_n
             string entrada;
             do
             {
+                ///pereba
                 Outrodoido Quem = new Outrodoido();
                 Console.Write("qual seu nome: ");
                 Quem.Nome = Console.ReadLine();
