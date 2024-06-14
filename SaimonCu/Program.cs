@@ -89,6 +89,7 @@ namespace CursoCSharp {
                 {"Excecao Personalizada - Excecao", ExcecoesPersonalizadas.Executar},
                 //-Excecoes-------------------------------------------
                 {"Primeiro Arquivo - API", PrimeiroArquivo.Executar},
+                {"Lendo Arquivos - API", LendoArquivos.Executar},
                 //-test---------------------
                 {"meltdown - nerds", malt.Executar},
                 {"doido loco - nerds", doido.Executar},

@@ -1,0 +1,3 @@
+Prduto;Preco;Qtde
+Caneta Bic Preta;3.59;89
+Borracha;2.89;27
