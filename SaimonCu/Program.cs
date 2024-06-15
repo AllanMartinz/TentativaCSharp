@@ -90,6 +90,8 @@ namespace CursoCSharp {
                 //-Excecoes-------------------------------------------
                 {"Primeiro Arquivo - API", PrimeiroArquivo.Executar},
                 {"Lendo Arquivos - API", LendoArquivos.Executar},
+                {"Exemplo File Info - API", ExemploFileInfo.Executar},
+                {"Diretorios - API", Diretorios.Executar},
                 //-test---------------------
                 {"meltdown - nerds", malt.Executar},
                 {"doido loco - nerds", doido.Executar},
