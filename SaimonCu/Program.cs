@@ -87,11 +87,12 @@ namespace CursoCSharp {
                 //-Excecoes-------------------------------------------
                 {"Primeira Excecao - Excecao", PrimeiraExcecao.Executar},
                 {"Excecao Personalizada - Excecao", ExcecoesPersonalizadas.Executar},
-                //-Excecoes-------------------------------------------
+                //-Api-------------------------------------------
                 {"Primeiro Arquivo - API", PrimeiroArquivo.Executar},
                 {"Lendo Arquivos - API", LendoArquivos.Executar},
                 {"Exemplo File Info - API", ExemploFileInfo.Executar},
                 {"Diretorios - API", Diretorios.Executar},
+                {"Exemplo DirectoryInfo - API", ExemploDirectoryInfo.Executar},
                 //-test---------------------
                 {"meltdown - nerds", malt.Executar},
                 {"doido loco - nerds", doido.Executar},
