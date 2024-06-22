@@ -94,6 +94,7 @@ namespace CursoCSharp {
                 {"Diretorios - API", Diretorios.Executar},
                 {"Exemplo DirectoryInfo - API", ExemploDirectoryInfo.Executar},
                 {"Exemplo Path - API", ExemploPath.Executar},
+                {"Exemplo DateTime - API", ExemploDateTime.Executar},
                 //-test---------------------
                 {"meltdown - nerds", malt.Executar},
                 {"doido loco - nerds", doido.Executar},
