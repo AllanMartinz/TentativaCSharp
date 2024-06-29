@@ -10,6 +10,7 @@ using SaimonCu.OO;
 using SaimonCu.MetodosEFuncoes;
 using SaimonCu.Excecoes;
 using SaimonCu.API;
+using SaimonCu.Topicos_Avancados;
 
 namespace CursoCSharp {
     class Program {
@@ -96,6 +97,8 @@ namespace CursoCSharp {
                 {"Exemplo Path - API", ExemploPath.Executar},
                 {"Exemplo DateTime - API", ExemploDateTime.Executar},
                 {"Exemplo Timespan - API", ExemploTimeSpan.Executar},
+                //-Api-------------------------------------------
+                {"LINQ - Topicos Avancados", LINQ1.Executar},
                 //-test---------------------
                 {"meltdown - nerds", malt.Executar},
                 {"doido loco - nerds", doido.Executar},
