@@ -98,11 +98,14 @@ namespace CursoCSharp {
                 {"Exemplo DateTime - API", ExemploDateTime.Executar},
                 {"Exemplo Timespan - API", ExemploTimeSpan.Executar},
                 //-Api-------------------------------------------
-                {"LINQ - Topicos Avancados", LINQ1.Executar},
+                {"LINQ #01 - Topicos Avancados", LINQ1.Executar},
+                {"LINQ #02 - Topicos Avancados", LINQ2.Executar},
+                {"Nullable - Topicos Avancados", Nullables.Executar},
                 //-test---------------------
                 {"meltdown - nerds", malt.Executar},
                 {"doido loco - nerds", doido.Executar},
-                {"pegando o python - nerds", pepe.Executar}
+                {"pegando o python - nerds", pepe.Executar},
+                {"python bosta - nerds", pythonbosta.Executar}
             }) ;
 
             central.SelecionarEExecutar();
