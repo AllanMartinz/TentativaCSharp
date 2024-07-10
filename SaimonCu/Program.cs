@@ -101,6 +101,8 @@ namespace CursoCSharp {
                 {"LINQ #01 - Topicos Avancados", LINQ1.Executar},
                 {"LINQ #02 - Topicos Avancados", LINQ2.Executar},
                 {"Nullable - Topicos Avancados", Nullables.Executar},
+                {"Dynamics - Topicos Avancados", Dynamics.Executar},
+                {"Generics - Topicos Avancados", Genericos.Executar},
                 //-test---------------------
                 {"meltdown - nerds", malt.Executar},
                 {"doido loco - nerds", doido.Executar},
