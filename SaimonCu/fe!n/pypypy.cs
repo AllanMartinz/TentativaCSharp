@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SaimonCu.fe_n
 {
-    class pythonbosta
+    class pypypy
     {
         public static void Executar()
         {

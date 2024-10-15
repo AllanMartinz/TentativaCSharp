@@ -107,7 +107,7 @@ namespace CursoCSharp {
                 {"meltdown - nerds", malt.Executar},
                 {"doido loco - nerds", doido.Executar},
                 {"pegando o python - nerds", pepe.Executar},
-                {"python bosta - nerds", pythonbosta.Executar}
+                {"python bosta - nerds", pypypy.Executar}
             }) ;
 
             central.SelecionarEExecutar();
