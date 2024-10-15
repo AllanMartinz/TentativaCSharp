@@ -35,6 +35,7 @@ namespace SaimonCu.Colecoes
             string palavra = new string(letras);
             Console.WriteLine(letras);
 
+            //0
             //--! id = identificador
         }
     }
